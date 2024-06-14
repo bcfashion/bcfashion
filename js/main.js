@@ -91,7 +91,7 @@
             }
         }
 
-        trigger.addEventListener("click", toggleModal);
+        // trigger.addEventListener("click", toggleModal);
         closeButton.addEventListener("click", toggleModal);
         window.addEventListener("click", windowOnClick);
         window.addEventListener("keyup", pressEsc);
@@ -103,7 +103,7 @@
      * ------------------------------------------------------ */
     const ssFinalCountdown = function () {
 
-        const finalDate = '2024/08/07';
+        const finalDate = '2024/11/07';
 
         $('.counter').countdown(finalDate)
             .on('update.countdown finish.countdown', function (event) {
